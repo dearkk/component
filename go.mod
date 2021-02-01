@@ -3,7 +3,6 @@ module component
 go 1.15
 
 require (
-	github.com/dearkk/component v0.0.0-20210129033259-7bebaf275701
 	github.com/prometheus-operator/prometheus-operator/pkg/client v0.45.0
 	github.com/sirupsen/logrus v1.4.2
 	istio.io/client-go v1.8.2
@@ -11,6 +10,5 @@ require (
 )
 
 replace (
-	github.com/dearkk/component v0.0.0-20210129033259-7bebaf275701 => ../component
 	github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.45.0 => ./prometheus-operator-0.42.1/pkg/apis/monitoring
 )

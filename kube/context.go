@@ -1,7 +1,7 @@
 package kube
 
 import (
-	"github.com/dearkk/component/klog"
+	"component/klog"
 	monitoringv1 "github.com/prometheus-operator/prometheus-operator/pkg/client/versioned/typed/monitoring/v1"
 	versionedclient "istio.io/client-go/pkg/clientset/versioned"
 	client "k8s.io/client-go/kubernetes"
