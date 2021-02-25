@@ -14,4 +14,4 @@ require (
 
 replace k8s.io/client-go => k8s.io/client-go v0.20.0
 
-replace github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.45.0 => ./prometheus-operator-0.42.1/pkg/apis/monitoring
+replace github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.45.0 => ./kube/prometheus-operator-0.42.1/pkg/apis/monitoring
